@@ -1,20 +1,15 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { IonApp, IonRouterOutlet } from '@ionic/angular/standalone';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet],
-  template: ` <router-outlet></router-outlet> `,
-  styles: [
-    `
-      :host {
-        max-width: 1280px;
-        margin: 0 auto;
-        padding: 2rem;
-        text-align: center;
-      }
-    `,
-  ],
+  imports: [IonApp, IonRouterOutlet],
+  template: `
+    <ion-app ngSkipHydration>
+      <ion-router-outlet></ion-router-outlet>
+    </ion-app>
+  `,
+  styles: [],
 })
 export class AppComponent {}
