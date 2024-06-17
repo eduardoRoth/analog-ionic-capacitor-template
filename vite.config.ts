@@ -28,6 +28,11 @@ export default defineConfig(({ mode }) => ({
     setupFiles: ['src/test.ts'],
     include: ['**/*.spec.ts'],
     reporters: ['default'],
+    server: {
+      deps: {
+        inline: ['@ionic/angular'],
+      },
+    },
   },
   define: {
     'import.meta.vitest': mode !== 'production',
