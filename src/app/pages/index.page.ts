@@ -55,7 +55,7 @@ import {toSignal} from "@angular/core/rxjs-interop";
                     </ion-row>
                     <ion-row class="ion-justify-content-center ion-align-items-center">
 
-                      @for(tech of stack(); track 'name'){
+                      @for(tech of stack(); track tech.name){
                         <ion-col size="auto">
                           @if(tech.icon){
                             <ion-icon
