@@ -30,7 +30,7 @@
     "@capacitor/core": "^6.1.0",
     "@capacitor/ios": "^6.1.0",
     "@ionic/angular": "^8.2.4",
-    "@nx/angular": "19.3.2",
+    "@nx/angular": "19.4.2",
     "front-matter": "^4.0.2",
     "ionicons": "^7.4.0",
     "marked": "^5.0.2",
