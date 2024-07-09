@@ -50,7 +50,7 @@
     "@angular/compiler-cli": "18.0.6",
     "@capacitor/cli": "^6.1.0",
     "@ionic/angular-toolkit": "^11.0.1",
-    "@nx/vite": "19.3.2",
+    "@nx/vite": "19.4.2",
     "jsdom": "^24.1.0",
     "nx": "19.3.2",
     "typescript": "^5.4.5",
