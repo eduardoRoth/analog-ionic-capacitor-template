@@ -46,7 +46,7 @@
   "devDependencies": {
     "@analogjs/platform": "^1.7.1",
     "@analogjs/vite-plugin-angular": "^1.7.1",
-    "@angular/cli": "^18.1.1",
+    "@angular/cli": "^18.2.0",
     "@angular/compiler-cli": "18.2.0",
     "@capacitor/cli": "^6.1.1",
     "@ionic/angular-toolkit": "^11.0.1",
