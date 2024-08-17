@@ -20,6 +20,7 @@ export default defineConfig(({ mode }) => ({
       vite: {
         inlineStylesExtension: 'scss',
       },
+      ssr: false
     }),
   ],
   test: {
