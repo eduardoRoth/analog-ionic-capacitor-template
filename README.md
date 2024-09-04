@@ -1,26 +1,17 @@
-# Analog App
+# AnalogJS + Ionic + CapacitorJS template
 
-This project was generated with [Analog](https://analogjs.org), the fullstack meta-framework for Angular.
+> This template repo allows you to start quick and fast with an AnalogJS project that integrates both Ionic Framework and CapacitorJS to your tools.
 
-## Setup
+## Using this template
 
-Run `npm install` to install the application dependencies.
+### From GitHub
 
-## Development
+Follow [this guide](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template) to clone this repo as a template in your new project
 
-Run `npm start` for a dev server. Navigate to `http://localhost:5173/`. The application automatically reloads if you change any of the source files.
+### With GitHub CLI
 
-## Build
+Run the following command to create your new project with this template
 
-Run `npm run build` to build the client/server project. The client build artifacts are located in the `dist/analog/public` directory. The server for the API build artifacts are located in the `dist/analog/server` directory.
-
-## Test
-
-Run `npm run test` to run unit tests with [Vitest](https://vitest.dev).
-
-## Community
-
-- Visit and Star the [GitHub Repo](https://github.com/analogjs/analog)
-- Join the [Discord](https://chat.analogjs.org)
-- Follow us on [Twitter](https://twitter.com/analogjs)
-- Become a [Sponsor](https://github.com/sponsors/brandonroberts)
+```shell
+gh repo create my-new-project --template eduardoRoth/analog-ionic-capacitor-template --private --clone
+```
