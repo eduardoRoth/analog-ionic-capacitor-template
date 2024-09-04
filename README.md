@@ -15,3 +15,7 @@ Run the following command to create your new project with this template
 ```shell
 gh repo create my-new-project --template eduardoRoth/analog-ionic-capacitor-template --private --clone
 ```
+
+## Already have an AnalogJS app?
+
+You can follow the steps in my [Ionic integration guide](https://analogjs.org/docs/integrations/ionic) in the official [AnalogJS docs](https://analogjs.org/docs)
